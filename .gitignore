@@ -30,6 +30,3 @@ logs
 pids
 *.pid
 *.seed
-
-.idea
-images
