@@ -1,10 +1,6 @@
 .twit.header {
   display: none; }
 
-.var-narrow .e-entry-title a {
-  color: white;
-  color: rgba(255, 255, 255, 0.95); }
-
 .var-narrow .e-entry-title, .var-narrow .e-entry-title > a {
   font-family: "Titillium Web", sans-serif !important;
   color: white !important;
