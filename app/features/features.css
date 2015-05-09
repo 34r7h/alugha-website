@@ -1,8 +1,8 @@
 .twit.header {
   display: none; }
 
-.var-narrow .e-entry-title, .var-narrow .e-entry-title > a {
-  font-family: "Titillium Web", sans-serif !important;
+.var-narrow .e-entry-title, .e-entry-title, .var-narrow .e-entry-title > a, .e-entry-title > a {
+  font-family: 'Titillium Web', sans-serif !important;
   color: white !important;
   font-size: 30px !important;
   line-height: 1.5em !important;
