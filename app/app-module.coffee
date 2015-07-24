@@ -1,15 +1,16 @@
 'use strict'
 
 ###* @ngdoc object
- # @name alughaHome
+ # @name alugha
  # @description
 
 ###
 angular
-  .module 'alughaHome', [
+  .module 'alugha', [
     'ui.router',
     'ngAnimate',
     'home',
     'layout',
-    'features'
+    'press',
+    'meet'
   ]

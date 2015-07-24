@@ -2,9 +2,9 @@
   'use strict';
 
   /** @ngdoc object
-    * @name alughaHome
+    * @name alugha
     * @description
    */
-  angular.module('alughaHome', ['ui.router', 'ngAnimate', 'home', 'layout', 'features']);
+  angular.module('alugha', ['ui.router', 'ngAnimate', 'home', 'layout', 'press', 'meet']);
 
 }).call(this);

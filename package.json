@@ -1,6 +1,6 @@
 {
-  "name": "alugha.home",
-  "version": "0.0.0",
+  "name": "alugha",
+  "version": "0.0.1",
   "scripts": {
     "test": "gulp test"
   },
