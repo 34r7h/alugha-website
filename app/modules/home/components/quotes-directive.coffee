@@ -23,9 +23,10 @@ class Quotes
       templateUrl: 'modules/home//components/quotes-directive.tpl.html'
       replace: false
       controllerAs: 'quotes'
-      controller: ->
+      controller: (Home) ->
         vm = @
         vm.name = 'quotes'
+        vm.quotes = Home.quotes
       link: (scope, element, attrs) ->
         ###jshint unused:false ###
         ###eslint "no-unused-vars": [2, {"args": "none"}]###

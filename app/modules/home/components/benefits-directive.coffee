@@ -19,13 +19,15 @@ class Benefits
   constructor: ->
     return {
       restrict: 'AE'
-      scope: {}
       templateUrl: 'modules/home/components/benefits-directive.tpl.html'
       replace: false
       controllerAs: 'benefits'
-      controller: ->
+      scope: {}
+      controller: (Home) ->
+        console.log 'Starting Controller with', Home
         vm = @
         vm.name = 'benefits'
+        vm.benefits = Home.benefits
       link: (scope, element, attrs) ->
         ###jshint unused:false ###
         ###eslint "no-unused-vars": [2, {"args": "none"}]###

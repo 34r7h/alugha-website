@@ -23,9 +23,10 @@ class Cta
       templateUrl: 'modules/home/components/cta-directive.tpl.html'
       replace: false
       controllerAs: 'cta'
-      controller: ->
+      controller: (Home) ->
         vm = @
         vm.name = 'cta'
+        vm.img = Home.cta
       link: (scope, element, attrs) ->
         ###jshint unused:false ###
         ###eslint "no-unused-vars": [2, {"args": "none"}]###

@@ -8,7 +8,7 @@
 
 ###
 class HomeCtrl
-  constructor: ->
+  constructor: () ->
     @ctrlName = 'HomeCtrl'
 
 angular
