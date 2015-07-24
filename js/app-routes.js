@@ -8,7 +8,7 @@
     }).state('alugha.disclaimer', {
       url: '/disclaimer',
       templateUrl: '/pages/disclaimer/disclaimer.tpl.html',
-      controller: 'DisclasimerCtrl',
+      controller: 'DisclaimerCtrl',
       controllerAs: 'disclaimer'
     }).state('alugha.tos', {
       url: '/tos',
