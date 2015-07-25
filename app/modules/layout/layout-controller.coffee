@@ -8,7 +8,7 @@
 
 ###
 class LayoutCtrl
-  constructor: ->
+  constructor: (Layout) ->
     @ctrlName = 'LayoutCtrl'
 
 angular

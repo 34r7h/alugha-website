@@ -18,34 +18,18 @@
                 <a href="https://news.alugha.com/en/kontakt/" target="_blank" class="icon-mail btn-nav btn-no-border hidden-xs" title="Contact us!"></a>
 
                 <ul 
-                        class="socialbar hidden-xs vcenter" 
-                        ng-init="nav.shares = [
-                            {name:'youtube', url:'https://www.youtube.com/user/alughaofficial'},
-                            {name:'linkedin', url:'https://www.linkedin.com/company/3759335'},
-                            {name:'vimeo', url:'https://vimeo.com/alughaofficial'},
-                            {name:'twitter', url:'https://twitter.com/alughaofficial'},
-                            {name:'xing', url:'https://www.xing.com/companies/alughagmbh'},
-                            {name:'pint', icon:'pinterest', url:'https://www.pinterest.com/alugha/'},
-                            {name:'gplus', url:'https://plus.google.com/+alugha'},
-                            {name:'facebook', url:'https://www.facebook.com/alughaofficial'}
-                        ]">
-
-                    <li ng-repeat="link in nav.shares" class="social_link"><a id="soc_{{link.name}}" class="icon-{{link.icon || link.name}}" href="{{link.url}}" target="_blank"></a></li>
+                        class="socialbar hidden-xs vcenter">
+                    <li ng-repeat="link in header.shares" class="social_link"><a id="soc_{{link.name}}" class="icon-{{link.icon || link.name}}" href="{{link.url}}" target="_blank"></a></li>
                 </ul>
             </div>
             <div
                     id="overlay-nav"
                     class="container"
                     ng-show="overlayNav === true"
-                    ng-init="nav.basic = [
-                        {name:'videos', icon:'video', link:'https://alugha.com/1/all'},
-                        {name:'blog', icon:'journal', link:'https://news.alugha.com/'},
-                        {name:'tour', icon:'tour', link:'/tour'},
-                        {name:'login', icon:'login', link:'https://alugha.com/1/login'}
-                    ]">
+                    >
                     <div class="nav-functions">
                         <div class="basic-funcs">
-                            <p ng-repeat="link in nav.basic"><a ng-href="{{link.link}}" class="icon-{{link.icon}} ">{{link.name | uppercase}}</a></p>
+                            <p ng-repeat="link in header.basic"><a ng-href="{{link.link}}" class="icon-{{link.icon}} ">{{link.name | uppercase}}</a></p>
                         </div>
                     </div>
             </div> <!-- overlay-nav -->

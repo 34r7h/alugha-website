@@ -23,12 +23,13 @@ class Header
       templateUrl: 'modules/layout/components/header-directive.tpl.html'
       replace: false
       controllerAs: 'header'
-      controller: ($window) ->
-        vm = @
-        vm.name = 'header'
-        vm.windowHeight = $window.innerHeight
+      controller: ($window, Layout) ->
+        @windowHeight = $window.innerHeight
+        @basic = Layout.basic
+        @shares = Layout.shares
 
-      link: (scope, element, attrs) ->
+
+    link: (scope, element, attrs) ->
         ###jshint unused:false ###
         ###eslint "no-unused-vars": [2, {"args": "none"}]###
     }

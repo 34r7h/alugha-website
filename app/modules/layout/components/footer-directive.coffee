@@ -23,9 +23,9 @@ class Footer
       templateUrl: 'modules/layout/components/footer-directive.tpl.html'
       replace: false
       controllerAs: 'footer'
-      controller: ->
-        vm = @
-        vm.name = 'footer'
+      controller: (Layout) ->
+        @links = Layout.footerLinks
+
       link: (scope, element, attrs) ->
         ###jshint unused:false ###
         ###eslint "no-unused-vars": [2, {"args": "none"}]###
