@@ -30,6 +30,11 @@
       templateUrl: 'pages/jobs/developer/developer.tpl.html',
       controller: 'DeveloperCtrl',
       controllerAs: 'developer'
+    }).state('tour', {
+      url: '/tour',
+      templateUrl: 'pages/tour/tour.tpl.html',
+      controller: 'TourCtrl',
+      controllerAs: 'tour'
     });
     return $urlRouterProvider.otherwise('/');
   });
