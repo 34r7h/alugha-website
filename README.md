@@ -32,11 +32,14 @@ Pages have a route with incuded template.
         - tour
  
 ## Detailed Modules
+
 ### Home
 Primary landing page
+
 ##### data
  - benefits `title, subtitle, content, img`
  - quotes `quote, name, org, class`
+ 
 ##### components
  - benefits  
  `* feature of features with popover info `
@@ -48,11 +51,14 @@ Primary landing page
  `* styled quotes feature`
  - twitter  
  `* latest tweet`
+ 
 ### layout
+
 ##### data
  - basic `name, icon, link`
  - shares `name, url, icon`
  - footerLinks `id_num, url, name`
+ 
 ##### components
  - header  
  `* nav, shares, and iframe embed of video site`
@@ -60,13 +66,17 @@ Primary landing page
  `* footer nav`  
      
 ### meet
+
 ##### data
  - events   
-   - [named object key] ` name, link, image, description, city, dateStart, dateEnd, location, booth, special, site:{url, name} `       
+   - [named object key] ` name, link, image, description, city, dateStart, dateEnd, location, booth, special, site:{url, name}
+   
 ##### components
  - event  
  `* feature that lists events that link to their individual event page via parameter routing`
+ 
 ### press
+
 ##### data
  - contacts `name, image, email, phone`
  - team `name, position, image, blurb`
@@ -84,6 +94,7 @@ Primary landing page
         - [hex color as key] `link`
     - product images `description, thumbnail, hires, web`
     - infographics `title, description, thumbnail, hires, web`
+    
 ##### components
  - press-contact  
  `* list of people to contact with their particulars`
