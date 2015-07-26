@@ -9,7 +9,7 @@ An angular reproduction aiming to streamline ever growing content and objectify 
 5. wire-up database and crud
 6. internationalization
 7. further objectification of pages via a primary app service
-8. jobs parameter routing via primary service for individual job
+8. jobs parameter routing via primary service for individual job 
 
  ## Angular app structure
 App: **alugha**   
