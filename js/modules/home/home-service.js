@@ -45,7 +45,7 @@
           img: 'images/showcase/showcase-6.svg'
         }
       ];
-      this.cta = 'images/Button_call_to_action.svg';
+      this.cta = 'https://alugha.com/images/Button_call_to_action.svg';
       this.quotes = [
         {
           quote: 'Unbelievable, it will save us a lot of time to spread our videos all over the world and this with a lot less of work! alugha is a true asset for our support. Thx to the team for alugha!',
