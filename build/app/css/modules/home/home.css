@@ -443,7 +443,7 @@ nav.navbar{
     transform: translate(0, 86px);
     -webkit-transform: translate(0, 86px);
     background: $color-alugha-blue;
-    background-image: url('../images/dropdown-bg.jpg');
+    background-image: url('http://alugha.com/images/dropdown-bg.jpg');
     background-position: center top;
     background-size:cover;
     color:$color-nav-foreground;

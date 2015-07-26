@@ -7,17 +7,17 @@
       template: '<div data-ui-view></div>'
     }).state('alugha.disclaimer', {
       url: '/disclaimer',
-      templateUrl: '/pages/disclaimer/disclaimer.tpl.html',
+      templateUrl: 'pages/disclaimer/disclaimer.tpl.html',
       controller: 'DisclaimerCtrl',
       controllerAs: 'disclaimer'
     }).state('alugha.tos', {
       url: '/tos',
-      templateUrl: '/pages/tos/tos.tpl.html',
+      templateUrl: 'pages/tos/tos.tpl.html',
       controller: 'TosCtrl',
       controllerAs: 'tos'
     }).state('alugha.prices', {
       url: '/prices',
-      templateUrl: '/pages/prices/prices.tpl.html',
+      templateUrl: 'pages/prices/prices.tpl.html',
       controller: 'PricesCtrl',
       controllerAs: 'prices'
     }).state('alugha.jobs', {
