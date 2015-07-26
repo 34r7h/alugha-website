@@ -82,7 +82,7 @@
         },
         'wolves-summit-startup-messe-\'15': {
           name: 'wolves summit startup messe poland-\'15',
-          link: '#/meet/tnw-europe-conference-amsterdam-2014',
+          link: '',
           image: 'https://alugha.com/images/meet/wolvessummit_2014.jpg',
           description: 'Our first StartUp show in Poland, where we show alugha to a wide range of interesting people! We got selected from a jury to one of the 90 most promising StartUp\'s in Europe.',
           city: 'Gdynia, Poland',
@@ -99,7 +99,7 @@
         },
         'it-and-media-future-congress-\'15': {
           name: 'it & media future congress \'15',
-          link: '#/meet/tnw-europe-conference-amsterdam-2014',
+          link: '',
           image: 'https://alugha.com/images/meet/it_media_future_2015.jpg',
           description: 'Although alugha is reaching out to the world, there are even many things on offer for the IT sector in our home region. Located in Darmstadt, which is just about 50km (31 miles) away from our hometown Mannheim, the IT&MEDIA FUTUREcongress takes place. A highly up-to-date summit with plenty of renowned companies from the software cluster Rhein-Main-Neckar.',
           city: 'Darmstadt',
@@ -116,7 +116,7 @@
         },
         'ces-las-vegas \'15': {
           name: 'ces las vegas \'15',
-          link: '#/meet/tnw-europe-conference-amsterdam-2014',
+          link: '',
           image: 'https://alugha.com/images/meet/ces_las_vegas.jpg',
           description: 'Although alugha is reaching out to the world, there are even many things on offer for the IT sector in our home region. Located in Darmstadt, which is just about 50km (31 miles) away from our hometown Mannheim, the IT&MEDIA FUTUREcongress takes place. A highly up-to-date summit with plenty of renowned companies from the software cluster Rhein-Main-Neckar.',
           city: 'Darmstadt',
