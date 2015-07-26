@@ -95,7 +95,7 @@ nav.navbar {
     left: 0;
     right: 0;
     height: 0px;
-    /*background: url('../images/shadow-top.png');
+    /*background: url('https://alugha.com/images/shadow-top.png');
     background-repeat: repeat-x;
     opacity: 0.3;*/
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
@@ -331,7 +331,7 @@ nav.navbar {
         transform: translate(0, 86px);
     -webkit-transform: translate(0, 86px);
     background: #2A343F;
-    background-image: url('../images/dropdown-bg.jpg');
+    background-image: url('https://alugha.com/images/dropdown-bg.jpg');
     background-position: center top;
     background-size: cover;
     color: rgba(204, 204, 204, 0.8);
@@ -704,7 +704,7 @@ nav.navbar {
     #bottom.page-content #cta #cta-hover, #bottom.page-content #cta .cta-hover {
       -webkit-transition: opacity 0.5s ease-in-out;
               transition: opacity 0.5s ease-in-out;
-      background: url("../images/Button_call_to_action_mouse_over.svg"); }
+      background: url("https://alugha.com/images/Button_call_to_action_mouse_over.svg"); }
     #bottom.page-content #cta #cta-click {
       -webkit-transition: none;
               transition: none; }
@@ -1040,7 +1040,7 @@ nav.navbar {
 .header.start {
   position: relative;
   height: 446px;
-  background-image: url(/images/header.jpg);
+  background-image: url(https://alugha.com/images/header.jpg);
   background-size: cover;
   background-position: center; }
   .header.start .header-main, .header.start .al-navbar {
@@ -1186,7 +1186,7 @@ span.letterpress {
     border: none; }
 
 .content.demo, .content.download {
-  background-image: url(/images/header-notext.jpg);
+  background-image: url(https://alugha.com/images/header-notext.jpg);
   text-shadow: none;
   color: #F0F0F0;
   padding-top: 100px;
@@ -1613,7 +1613,7 @@ strong {
     color: #FAFAFA; }
 
 .container-fluid.jobdescription {
-  background: url('../images/header-notext.jpg');
+  background: url('https://alugha.com/images/header-notext.jpg');
   background-color: rgba(42, 52, 63, 0.8); }
   .container-fluid.jobdescription .bg {
     margin-left: -15px;
