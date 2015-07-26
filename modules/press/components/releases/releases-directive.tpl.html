@@ -1,0 +1,16 @@
+<div class="press">
+    <div class="container">
+        <h1>PRESS RELEASES</h1>
+        <div id="rssFeedEN">
+            <ul>
+                <div class="headline" ng-repeat="release in releases.releases">
+                    <h2><a ng-href="{{release.link}}" target="_blank">{{release.title}}</a></h2>
+                    <a ng-href="{{release.link}}" target="_blank" class="btn_collapse btn_single_img" title="Eintrag ansehen">
+                        <span class="icon-plus"></span>
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+</div>

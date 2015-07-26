@@ -1,0 +1,31 @@
+<!-- TODO carousel -->
+<div class="press">
+    <!-- Carousel
+      ================================================== -->
+    <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="https://alugha.com/images/press-imgs/mashup/ALU_Mashup.jpg" alt="Mashup Team">
+            </div>
+        </div>
+    </div><!-- /.carousel -->
+
+    <div class="container">
+        <h1 class="col-xs-12">WE TRUST IN THE BEST! PRESS CONTACT</h1>
+        <p class="col-sm-7">
+            Our press work is taken over by Mashup Communications - and this really makes us speechless this time. Because, to supply the best support for you, we only work together with the best. Any questions, suggestions, wishes or love you can contact them directly using this contact data:
+        </p>
+        <p class="col-sm-3 col-sm-offset-2">
+            <a href="http://www.mashup-communications.de/en/"><img class="img-responsive centered" src="https://alugha.com/images/press-imgs/mashup/mashup-cummunications-logo1.png" alt="Mashup Logo"></a>
+        </p>
+
+        <div ng-repeat="contact in pressContact.contacts" class="col-xs-12 col-sm-4 col-sm-offset-1 thumbnail nolink">
+            <img class="img-responsive" ng-src="{{contact.image}}" alt="{{contact.name}}">
+            <h3>{{contact.name}}</h3>
+            <p>
+                <a ng-href="mailto:{{contact.email}}">{{contact.email}}</a><br>
+                {{contact.phone}}
+            </p>
+        </div>
+    </div>
+</div>
