@@ -14,32 +14,32 @@ class Home
       title: 'achieve more'
       subtitle: 'with your viewers'
       content:'Multilingual videos help you reach a vast audience. Every language brings you millions of potential viewers all over the globe.'
-      img:'images/showcase/showcase-1.svg'
+      img:'https://alugha.com/images/showcase/showcase-1.svg'
     ,
       title: 'so simple'
       subtitle: 'yet so brilliant'
       content:'Being so simple, adding multiple languages to your videos won‘t take you more than five minutes. Your audience will not even recognize that it‘s a single video.'
-      img: 'images/showcase/showcase-2.svg'
+      img: 'https://alugha.com/images/showcase/showcase-2.svg'
     ,
       title: 'it works'
       subtitle: 'it just works'
       content:'Upload your video, add the languages you want and optionally embed the video into your website… That‘s it!'
-      img:'images/showcase/showcase-3.svg'
+      img:'https://alugha.com/images/showcase/showcase-3.svg'
     ,
       title: 'one video'
       subtitle: 'to rule them all'
       content:'Without alugha, a video in 10 languages results in 10 different videos. With alugha, a video in up to 7000 languages results in only one video.'
-      img: 'images/showcase/showcase-4.svg'
+      img: 'https://alugha.com/images/showcase/showcase-4.svg'
     ,
       title: 'make the planet'
       subtitle: 'a bit greener'
       content: 'Save up to 90% of storage and traffic with alugha. Less servers, less cooling, less storage, less bandwidth, less traffic.'
-      img:'images/showcase/showcase-5.svg'
+      img:'https://alugha.com/images/showcase/showcase-5.svg'
     ,
       title: 'connect people'
       subtitle: 'around the world'
       content:'Expand your global audience. With every language you add, you can address millions of native speakers all around the world.'
-      img:'images/showcase/showcase-6.svg'
+      img:'https://alugha.com/images/showcase/showcase-6.svg'
     ]
     @cta = 'https://alugha.com/images/Button_call_to_action.svg'
     @quotes = [
