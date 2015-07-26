@@ -12,6 +12,7 @@
 1. Use [generator-ng-poly](https://github.com/dustinspecker/generator-ng-poly) to create additional components
 
 ## Gulp tasks
+- Run `gulp serve` to compile coffescript and serve port 3000
 - Run `gulp build` to compile assets
 - Run `gulp dev` to run the build task and setup the development environment
 - Run `gulp unitTest` to run unit tests via Karma and to create code coverage reports
