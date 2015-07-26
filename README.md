@@ -31,71 +31,70 @@ Pages have a route with incuded template.
         - tos
         - tour
  
- ## Detailed Modules
- 
+## Detailed Modules
 ### Home
 Primary landing page
-  ##### data
-     - benefits `title, subtitle, content, img`
-     - quotes `quote, name, org, class`
- ##### components
-     - benefits  
-     `* feature of features with popover info `
-     - cta  
-     `* call to action, links to video site login`
-     - mailing-list  
-     `* email sign up form`
-     - quotes  
-     `* styled quotes feature`
-     - twitter  
-     `* latest tweet`
+##### data
+ - benefits `title, subtitle, content, img`
+ - quotes `quote, name, org, class`
+##### components
+ - benefits  
+ `* feature of features with popover info `
+ - cta  
+ `* call to action, links to video site login`
+ - mailing-list  
+ `* email sign up form`
+ - quotes  
+ `* styled quotes feature`
+ - twitter  
+ `* latest tweet`
 ### layout
-   - ##### data
-     - basic `name, icon, link`
-     - shares `name, url, icon`
-     - footerLinks `id_num, url, name`
-   - ##### components
-     - header  
-     `* nav, shares, and iframe embed of video site`
-     - footer  
-     `* footer nav`  
+##### data
+ - basic `name, icon, link`
+ - shares `name, url, icon`
+ - footerLinks `id_num, url, name`
+##### components
+ - header  
+ `* nav, shares, and iframe embed of video site`
+ - footer  
+ `* footer nav`  
      
 ### meet
-   ##### data
-     - events   
-       - [named object key] ` name, link, image, description, city, dateStart, dateEnd, location, booth, special, site:{url, name} `
-   ##### components
-     - event  
-     `* feature that lists events that link to their individual event page via parameter routing`
+##### data
+ - events   
+   - [named object key] ` name, link, image, description, city, dateStart, dateEnd, location, booth, special, site:{url, name} `       
+##### components
+ - event  
+ `* feature that lists events that link to their individual event page via parameter routing`
 ### press
-   ##### data
-     - contacts `name, image, email, phone`
-     - team `name, position, image, blurb`
-     - releases `title, link`
-     - reviews
-        - online `link, logo, review`
-        - print `link, description, image, edition`
-     - resProfiles
-        - [name and position or gallery title] `thumbnail, hires, web`
-     - resMedia
-        - logo
-            - [style]
-                - [logo or signet] `thumbnail, eps, png`
-        - color reference
-            - [hex color as key] `link`
-        - product images `description, thumbnail, hires, web`
-        - infographics `title, description, thumbnail, hires, web`
-   ##### components
-     - press-contact  
-     `* list of people to contact with their particulars`
-     - releases  
-     `* lists and links press releases`
-     - resources  
-     `* lists and links photography resources`
-     - reviews  
-     `* lists and links published reviews`
-     - team  
-     `* lists team with pictures`
+##### data
+ - contacts `name, image, email, phone`
+ - team `name, position, image, blurb`
+ - releases `title, link`
+ - reviews
+    - online `link, logo, review`
+    - print `link, description, image, edition`
+ - resProfiles
+    - [name and position or gallery title] `thumbnail, hires, web`
+ - resMedia
+    - logo
+        - [style]
+            - [logo or signet] `thumbnail, eps, png`
+    - color reference
+        - [hex color as key] `link`
+    - product images `description, thumbnail, hires, web`
+    - infographics `title, description, thumbnail, hires, web`
+##### components
+ - press-contact  
+ `* list of people to contact with their particulars`
+ - releases  
+ `* lists and links press releases`
+ - resources  
+ `* lists and links photography resources`
+ - reviews  
+ `* lists and links published reviews`
+ - team  
+ `* lists team with pictures`
 
 *Generated with [ng-poly](https://github.com/dustinspecker/generator-ng-poly/tree/v0.8.3) version 0.8.3*
 
