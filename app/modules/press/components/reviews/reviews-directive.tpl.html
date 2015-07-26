@@ -1,0 +1,33 @@
+<!--TODO Clearfix bug-->
+<div class="container pressreference">
+    <h1 class="col-xs-12">PRESS REVIEWS</h1>
+    <p class="col-xs-12 col-sm-5" style="padding-bottom: 40px;">
+        Alugha spreads around the world! The media is excited and write articles about this great Service, that will change videostreaming
+    </p>
+
+    <p class="col-xs-12 col-sm-7">in multilingual rooms sustainably. We try to keep this list up to date. If your article is missing, just contact us and we add it as soon as possible!</p>
+
+    <h2 class="col-xs-12">ONLINE-MEDIEN</h2>
+
+    <p class="col-xs-12"></p> <!-- Prevents .singleref divs to act weird when above text is too short-->
+    <div ng-repeat="review in reviews.online"></div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-3 singleref" ng-repeat="review in reviews.online">
+            <a ng-href="{{review.link}}" target="_blank"><img class="img-responsive" ng-src="{{review.logo}}"></a>
+            <p>
+                "{{review.review}}"<a ng-href="{{review.link}}" target="_blank"><br>more</a>
+            </p>
+        </div>
+        <br ng-show="($index+1)%4==0" class="clearfix"/>
+    </div>
+
+    <h2 class="col-xs-12">PRINT-MEDIA</h2>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-3 singleref" ng-repeat="review in reviews.print">
+            <a ng-href="{{review.link}}" target="_blank"><img class="img-responsive" ng-src="{{review.image}}" alt="{{review.description}}"></a>
+            <p>{{review.edition}}</p>
+        </div>
+    </div>
+</div>

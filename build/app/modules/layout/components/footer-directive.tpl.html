@@ -1,0 +1,17 @@
+<div
+        class="footer en"
+        ng-init="">
+    <div class="container">
+        <div class="row">
+            <span class="col-xs-12 col-sm-2">&copy; 2015 alugha GmbH</span>
+            <div class="menu-footer-container">
+                <ul id="menu-footer" class="Navbar_reg col-xs-12 col-sm-7 col-md-8">
+                    <li ng-repeat="link in footer.links" id="menu-item-{{link.id_num}}" class="menu-item">
+                        <a ng-href="{{link.url}}">{{link.name | uppercase}}</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="col-xs-12 col-sm-3 col-md-4 pull-right">ALUGHA - EVERYONE'S LANGUAGE!</span>
+        </div>
+    </div>
+</div>

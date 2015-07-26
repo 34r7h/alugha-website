@@ -1,0 +1,55 @@
+<!--TODO orderBy --><div class="container">
+    <div class="row">
+        <h1>ALUGHA - PRESS TEXT</h1>
+        <p>
+            alugha is Swahili and literally means “one language”. The family company made this meaning to its mission and for the first time enables worldwide operating companies to only upload one video instead of various seperate videos in different languages. According to the Browserlanguage the user can watch the videos via the alugha - player automatically in the right language. The video material and the respective audiotracks will therefore just simply beeing put together using the alugha video uploader and can then be embedded multilingual. This does not only save time, it even saves enormous traffic and storage space so that the Internet will be quicker and greener.
+        </p>
+        <p>
+            The alugha GmbH has been founded in April 2014 by Gregor Greinert and Bernd Korz in Mannheim / Germany. Korz gets supported by his family and further 7 employees from the IT- and creative sector.
+        </p>
+    </div>
+
+    <div class="row images" ng-repeat="(key,profiles) in resources.profiles">
+        <h2>{{key | uppercase}}</h2>
+        <div class="press-imgbox col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-3" ng-repeat="image in profiles">
+            <p><img ng-src="{{image.thumbnail}}" class="img-responsive"></p>
+            <p style="text-align:center"><a href="{{image.hires}}">Hi-Res</a> | <a href="{{image.web}}">Web</a></p>
+        </div>
+    </div>
+
+    <div class="row images">
+        <h2>LOGO</h2>
+        <div class="press-imgbox col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-3" ng-repeat="(key, logo) in resources.media.logo">
+            <h4>{{key}}</h4>
+
+            <p><img ng-src="{{logo.logo.thumbnail}}" class="img-responsive"></p>
+            <p style="text-align:center" class="last"><a href="{{logo.logo.eps}}">EPS</a> | <a href="{{logo.logo.png}}">PNG</a></p>
+
+            <p><img ng-src="{{logo.signet.thumbnail}}" class="img-responsive"></p>
+            <p style="text-align:center"><a href="{{logo.signet.eps}}">EPS</a> | <a href="{{logo.signet.png}}">PNG</a></p>
+        </div>
+
+        <div class="press-imgbox col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-3">
+            <h4>COLOR REFERENCE</h4>
+            <div ng-repeat="(key, color) in resources.media['color reference']"><p><img ng-src="{{color}}" class="img-responsive"></p>
+            <p style="text-align:center" class="last">#{{key}}</p></div>
+        </div>
+    </div>
+
+    <div class="row images">
+        <h2>PRODUCT IMAGES</h2>
+        <div class="press-imgbox col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-3" ng-repeat="product in resources.media['product images']">
+            <p><img ng-src="{{product.thumbnail}}" class="img-responsive" alt="{{product.description}}"></p>
+            <p style="text-align:center"><a href="{{product.hires}}">Hi-Res</a> | <a href="{{product.web}}">Web</a></p>
+        </div>
+    </div>
+
+    <div class="row images">
+        <h2>INFOGRAPHICS</h2>
+        <div class="press-imgbox col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-3" ng-repeat="infograf in resources.media['infographics']">
+            <h4>{{infograf.title}}</h4>
+            <p><img ng-src="{{infograf.thumbnail}}" class="img-responsive" alt="{{infograf.description}}"></p>
+            <p style="text-align:center"><a href="{{infograf.hires}}">Hi-Res</a> | <a href="{{infograf.web}}">Web</a></p>
+        </div>
+    </div>
+</div>

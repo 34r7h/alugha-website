@@ -1,0 +1,16 @@
+<div
+        class="content-box"
+        id="quotes">
+    <div class="container">
+        <h2>What others say about us</h2>
+        <div class="row">
+            <div ng-repeat="quote in quotes.quotes" class="{{quote.class}}">
+                <blockquote>
+                    <p><a ng-show="quote.twitterHandle.length > 0" ng-href="https://twitter.com/{{quote.twitterHandle}}">@{{quote.twitterHandle}}</a> {{quote.quote}}</p>
+                    <small><cite title="{{quote.name}}">{{quote.name}}</cite> [{{quote.org}}]</small>
+                    <a ng-show="quote.twitterTweet.length > 0" ng-href="{{quote.twitterTweet}}">{{quote.twitterDate}}</a>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>

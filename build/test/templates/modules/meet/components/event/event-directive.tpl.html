@@ -1,0 +1,23 @@
+<!--TODO add maps-->
+<div class="page">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 panel">
+                <h1><font><font>{{event.event.name | uppercase}}</font></font></h1>
+                <p>
+                    <a ng-href="{{event.event.link}}" target="_blank"><img ng-src="{{event.event.image}}" class="img-responsive" alt="Collision brochure"></a>
+                </p>
+                <p><font><font>{{event.event.description}}</font></font></p>
+                <p><strong><font><font>Place:</font></font></strong><font><font> {{event.event.city}}</font></font></p>
+                <p><strong><font><font>Date:</font></font></strong><font><font> {{event.event.dateStart}} - {{event.event.dateEnd}}</font></font></p>
+                <p><strong><font><font>Hall:</font></font></strong><font><font> {{event.event.location}}</font></font></p>
+                <p><strong><font><font>Booth:</font></font></strong><font><font> {{event.event.booth}}</font></font></p>
+                <p><strong><font><font>Special Feature: </font></font></strong>
+                {{event.event.special}}</p>
+                <p><strong><font><font>Website: </font></font></strong><a ng-href="{{event.event.site.url}}" target="_blank"><font><font>{{event.event.site.name}}</font></font></a></p>
+                <p style="margin-top: 30px;"><a ng-href="#/meet"><font><font>Back to Overview</font></font></a></p>
+            </div>
+        </div>
+    </div>
+
+</div>
